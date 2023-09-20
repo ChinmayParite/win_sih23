@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    background-color:whitesmoke;
+    background-color:#fcfcff;
 }
 
 /* Reset some default styles for the header and nav */
@@ -74,7 +74,8 @@ li {
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background:whitesmoke;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 75%);
+background-color: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 75%);
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.4rem;
@@ -101,6 +102,8 @@ a {
 a:hover {
     color:cornflowerblue;
 }
+
+
 
  /* sidebar
 
@@ -132,21 +135,132 @@ a:hover {
   
 .section{
     min-height: 100vh;
-    padding: 10rem 0% 2rem;
+    padding: 10rem 9% 2rem;
     color: var(--text-color);
 }
 
-.landing-content h1{
-    font-size: 60px;
-    font-weight: 400;
-    margin-top: 150px;
+.landing-content {
+    display: flex; /* Display side by side */
+    align-items: center; /* Vertically center */
+    align-self: auto;
+    max-width: 8000px;
+    max-height: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add spacing around the container */
+}
+
+.landing-text h1{
+    font-size: 70px;
+    font-weight: 700; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 130px;
 }
 
-.landing-content h2{
-    font-size: 60px;
-    font-weight: 400;
+.landing-text h2{
+    font-size: 70px;
+    font-weight: 700; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 130px;
+}
+
+.landing-image{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.landing-content1 h3{
+    font-size: 24px;
+    font-weight: 400; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    color:cornflowerblue;
+    margin-bottom: 200px;
+}
+
+.page-content{
+    display: flex; /* Display side by side */
+    align-items: center; /* Vertically center */
+    align-self: auto;
+    max-width: 8000px;
+    margin-left: 100px;
+     /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add spacing around the container */
+}
+
+.page-content h1{
+    font-size: 46px;
+    font-weight: 300; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    color:#000;
+    
+}
+
+.page-content h2{
+    font-size: 46px;
+    font-weight: 300; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    color:#000;
+    margin-bottom: 300px;
+}
+
+.page-content h3{
+    font-size: 46px;
+    font-weight: 300; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    color:#000;
+    margin-bottom: 350px;
+}
+
+.page-content img{
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+/*footer*/
+
+.foot{
+    display: flex; /* Display side by side */
+    align-items: center; /* Vertically center */
+    align-self: auto;
+    max-width: 1600px;
+    margin-left: 100px;
+     /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add spacing around the container */
+    background-color: #eaeaea;
+}
+
+.foot h1{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    color: #000;
+    
+}
+
+.foot h2,h3,h4,h5{
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    color: #000;
+}
+
+.foot3 h1{
+    margin-top: 30px;
+}
+
+.footer1 p{
+    font-size: 16px;
+    font-weight: 640;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    margin-left: 600px;
+
 }
