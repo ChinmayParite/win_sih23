@@ -203,7 +203,7 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 300px;
     color:#000;
-    
+    margin-bottom: 300px;    
     
 }
 
@@ -213,6 +213,7 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 300px;
     color:#000;
+    margin-bottom: 300px; 
     
 }
 
@@ -224,12 +225,6 @@ a:hover {
 
 .page1 img{
     margin-top: 60px;
-}
-
-.start .btn{
-    margin-left: 680px;
-    margin-bottom: 190px;
-    margin-top: 100px;
 }
 
 /*footer*/
